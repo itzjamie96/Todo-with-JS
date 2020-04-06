@@ -89,7 +89,7 @@ function loadTodos(){
         //for each 
         parsedTodos.forEach(function(todo){
             showTodo(todo.todo);
-            console.log(todo.todo);
+            // console.log(todo.todo);
         });
         
     }

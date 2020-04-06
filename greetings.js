@@ -1,6 +1,7 @@
 const nameForm = document.querySelector(".js-form");
 const nameInput = nameForm.querySelector("input");
-const message = document.querySelector(".js-greetings");
+const greeting = document.querySelector(".js-greetings");
+const message = document.querySelector(".js-message");
 
 const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
@@ -35,10 +36,12 @@ function showMessage(name){
     nameForm.classList.remove(SHOWING_CN);
 
     // 이제 인사 message 보여야하니 add showing class
+    greeting.classList.add(SHOWING_CN);
     message.classList.add(SHOWING_CN);
 
     // 인사 message에 input으로 들어온 이름 보여주기
-    message.innerText = `Hello, ${name}`;
+    greeting.innerText = `Hello, ${name}.`;
+    message.innerText = `It's a wonderful day.`;
 }
 
 function loadName(){
