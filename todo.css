@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 .form, 
 .greetings{
     display: none;
@@ -6,3 +9,35 @@
 .showing{
     display: block;
 }
+
+input{
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+input:focus{
+    outline: none;
+}
+
+ul{
+    padding: 10px 30%;
+    list-style-type: none;
+}
+
+li{
+    text-align: left;
+}
+
+.todo-form{
+    margin-top: 5%;
+}
+
+.form input,
+.todo-form input{
+    width: 40%;
+    text-align: center;
+}
+
+
+
+
