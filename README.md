@@ -4,8 +4,6 @@ This is a simple todo list application created with pure javascript that helps y
 
 ![JS todo list](https://user-images.githubusercontent.com/53888115/97668523-7e03f480-1ac5-11eb-95f1-a99a388043bf.gif)
 
-<br>
-
 ## Technologies Used
 
 - JavaScript
